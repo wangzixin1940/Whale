@@ -90,7 +90,7 @@
     <addaction name="actionSave_as"/>
     <addaction name="separator"/>
     <addaction name="actionOpen_in_System_File_Explorer"/>
-    <addaction name="actionOpen_in"/>
+    <addaction name="actionOpen_with"/>
     <addaction name="separator"/>
     <addaction name="actionPrint"/>
     <addaction name="actionPage_Settings"/>
@@ -523,9 +523,9 @@
     <string>Open in System File Explorer</string>
    </property>
   </action>
-  <action name="actionOpen_in">
+  <action name="actionOpen_with">
    <property name="text">
-    <string>Open in...</string>
+    <string>Open with...</string>
    </property>
   </action>
   <action name="actionUndo">

@@ -29,7 +29,7 @@
     <set>QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok</set>
    </property>
   </widget>
-  <widget class="QTabWidget" name="tabWidget">
+  <widget class="QTabWidget" name="settingsTabs">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -74,7 +74,7 @@
      </item>
      <item>
       <property name="text">
-       <string>Simp. Chinese (China Mainland)</string>
+       <string>简体中文 (中国大陆)</string>
       </property>
      </item>
     </widget>
@@ -134,11 +134,6 @@
      <item>
       <property name="text">
        <string>GBK</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>ANSI</string>
       </property>
      </item>
     </widget>
@@ -259,6 +254,172 @@
        <string>MM-DD-YY hh:mm:ss</string>
       </property>
      </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="appearanceSettings">
+    <attribute name="title">
+     <string>Appearance</string>
+    </attribute>
+    <widget class="QLabel" name="themeChooseLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Theme</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="themeChooseCombo">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>371</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Dark Amber</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Blue</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Cyan</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Lightgreen</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Medical</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Pink</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Purple</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Red</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Teal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dark Yellow</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Amber</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Blue</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Blue 500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Cyan</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Cyan 500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Lightgreen</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Lightgreen 500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light orange</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Pink</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Pink 500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Purple</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Purple 500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Red</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Red 500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Teal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Teal 500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Yellow</string>
+      </property>
+     </item>
     </widget>
    </widget>
   </widget>

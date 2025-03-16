@@ -1,0 +1,12 @@
+region:
+  language = en-us
+  encoding = utf-8
+  timestamp = MM/DD/YY HH:MM:SS
+
+editor:
+  auto_line_warping = false
+
+appearance:
+  theme = light_blue
+  font = Arial
+  font_size = 12
